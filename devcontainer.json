@@ -1,0 +1,13 @@
+{
+  "name": "React Native E-Commerce App",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-20",
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.vscode-typescript-next",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}
